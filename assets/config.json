@@ -1,0 +1,30 @@
+{
+  "category": "Hero",
+  "config": {
+    "props": {
+      "subTitle": "Sub Title",
+      "style": {  
+      }
+    }, 
+    "componentName": "PbComponentHero"
+  },
+  "props": [{
+    "prop": "backgroundImage", 
+    "input": {
+      "component": "InputExpression"
+    },
+    "label": "Image url"
+  }, {
+    "prop": "subTitle", 
+    "input": {
+      "component": "InputExpression"
+    },
+    "label": "Sub Title"
+  }, {
+    "prop": "title", 
+    "input": {
+      "component": "InputExpression"
+    }, 
+    "label": "Title"
+  }]
+}
